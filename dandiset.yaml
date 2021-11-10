@@ -237,10 +237,12 @@ relatedResource:
 - name: Dentate Gyrus and CA3 GABAergic Interneurons Bidirectionally Modulate Signatures
     of Internal and External Drive to CA1
   relation: dcite:Describes
+  schemaKey: Resource
   url: https://www.biorxiv.org/content/10.1101/2021.01.04.425303v1
 - name: 'interneurons_modulate_drive: code to analyze this data'
   relation: dcite:Describes
   repository: Github
+  schemaKey: Resource
   url: https://github.com/emilyasterjones/interneurons_modulate_drive
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
