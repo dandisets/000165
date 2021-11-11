@@ -2,9 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000165
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
-about:
-- identifier: UBERON:0002421
-  name: Hippocampal Formation
+about: []
 access: []
 acknowledgement: This work was supported by the National Science Foundation Graduate
   Research Fellowship No. 1144247, National Institute on Aging Predoctoral Fellowship
@@ -15,9 +13,35 @@ acknowledgement: This work was supported by the National Science Foundation Grad
   with linear track construction, and Alex Gonzalez and Abhilasha Joshi for manuscript
   feedback.
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: signal filtering technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 244513744
+  numberOfFiles: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - LFP
+  - ElectricalSeries
+  - SpatialSeries
+  - Position
 citation: Aery Jones, Emily; Rao, Antara; Zilberter, Misha; Djukic, Biljana; Gillespie,
   Anna K.; Koutsodendris, Nicole; Nelson, Maxine; Yoon, Seo Yeon; Huang, Ky; Yuan,
   Heidi; Gill, Theodore M.; Huang, Yadong; Frank, Loren M. (2021) Aery Jones et al
