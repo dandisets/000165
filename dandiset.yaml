@@ -2,7 +2,10 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000165
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
-about: []
+about:
+- identifier: UBERON:0002421
+  name: Hippocampus
+  schemaKey: Anatomy
 access: []
 acknowledgement: This work was supported by the National Science Foundation Graduate
   Research Fellowship No. 1144247, National Institute on Aging Predoctoral Fellowship
@@ -14,34 +17,40 @@ acknowledgement: This work was supported by the National Science Foundation Grad
   feedback.
 assetsSummary:
   approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
   - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 244513744
-  numberOfFiles: 1
-  numberOfSubjects: 1
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 98043538088
+  numberOfFiles: 572
+  numberOfSubjects: 64
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - LFP
-  - ElectricalSeries
-  - SpatialSeries
+  - Units
   - Position
+  - LFP
+  - SpatialSeries
+  - ElectricalSeries
+  - ElectrodeGroup
 citation: Aery Jones, Emily; Rao, Antara; Zilberter, Misha; Djukic, Biljana; Gillespie,
   Anna K.; Koutsodendris, Nicole; Nelson, Maxine; Yoon, Seo Yeon; Huang, Ky; Yuan,
   Heidi; Gill, Theodore M.; Huang, Yadong; Frank, Loren M. (2021) Aery Jones et al
@@ -56,7 +65,6 @@ contributor:
   - identifier: https://ror.org/038321296
     name: Gladstone Institutes
     schemaKey: Affiliation
-  awardNumber: NSF GRFP 1144247, NIMH F31AG057150
   email: emijones@stanford.edu
   identifier: 0000-0001-8180-3267
   includeInCitation: true
@@ -202,7 +210,6 @@ contributor:
   - identifier: https://ror.org/043mz5j54
     name: University of California, San Francisco
     schemaKey: Affiliation
-  awardNumber: NIA RF1AG047655, RF1AG055421, R01AG055682, and P01AG073082
   email: yadong.huang@gladstone.ucsf.edu
   identifier: 0000-0002-5871-4589
   includeInCitation: true
@@ -234,6 +241,29 @@ contributor:
   - dcite:Supervision
   - dcite:FundingAcquisition
   schemaKey: Person
+- awardNumber: '1144247'
+  contactPoint: []
+  identifier: https://ror.org/021nxhr62
+  includeInCitation: false
+  name: National Science Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: F31AG057150, RF1AG047655, RF1AG055421, R01AG055682, and P01AG073082
+  contactPoint: []
+  identifier: https://ror.org/049v75w11
+  includeInCitation: false
+  name: National Institute on Aging
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  identifier: https://ror.org/006w34k90
+  includeInCitation: false
+  name: Howard Hughes Medical Institutes
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2021-11-03T02:14:45.726691+00:00'
 description: 'The experiment consisted of three cohorts of PVCre, SSTCre, and PVCre/SSTCre
   mice injected with either AAV5-hSyn-DIO-hM4D(Gi)-mCherry (hM4D) or AAV5-hSyn-DIO-mCherry
