@@ -55,8 +55,8 @@ citation: Aery Jones, Emily; Rao, Antara; Zilberter, Misha; Djukic, Biljana; Gil
   Anna K.; Koutsodendris, Nicole; Nelson, Maxine; Yoon, Seo Yeon; Huang, Ky; Yuan,
   Heidi; Gill, Theodore M.; Huang, Yadong; Frank, Loren M. (2021) Aery Jones et al
   (2021) Dentate Gyrus and CA3 GABAergic Interneurons Bidirectionally Modulate Signatures
-  of Internal and External Drive to CA1 (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000165/draft
+  of Internal and External Drive to CA1 (Version 0.211118.1526) [Data set]. DANDI
+  archive. https://doi.org/10.48324/dandi.000165/0.211118.1526
 contributor:
 - affiliation:
   - identifier: https://ror.org/043mz5j54
@@ -265,6 +265,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2021-11-03T02:14:45.726691+00:00'
+datePublished: '2021-11-18T15:26:09.602587+00:00'
 description: 'The experiment consisted of three cohorts of PVCre, SSTCre, and PVCre/SSTCre
   mice injected with either AAV5-hSyn-DIO-hM4D(Gi)-mCherry (hM4D) or AAV5-hSyn-DIO-mCherry
   (empty vector) in DG and CA3, then injected with vehicle or CNO prior to recordings.
@@ -273,8 +274,9 @@ description: 'The experiment consisted of three cohorts of PVCre, SSTCre, and PV
   "Dentate Gyrus and CA3 GABAergic Interneurons Bidirectionally Modulate Signatures
   of Internal and External Drive to CA1". For more information about this data, please
   contact Emily Aery Jones, Yadong Huang, or Loren Frank.'
+doi: 10.48324/dandi.000165/0.211118.1526
 ethicsApproval: []
-id: DANDI:000165/draft
+id: DANDI:000165/0.211118.1526
 identifier: DANDI:000165
 keywords:
 - hippocampus
@@ -283,10 +285,22 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000165/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000165/0.211118.1526/assets.yaml
 name: Aery Jones et al (2021) Dentate Gyrus and CA3 GABAergic Interneurons Bidirectionally
   Modulate Signatures of Internal and External Drive to CA1
 protocol: []
+publishedBy:
+  endDate: '2021-11-18T15:26:09.602587+00:00'
+  id: urn:uuid:4956b3d7-5e9c-4fdf-b180-265ed4550724
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2021-11-18T15:26:09.602587+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:1e1632d4-9034-4e8b-9ba1-70ac5608d84c
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Dentate Gyrus and CA3 GABAergic Interneurons Bidirectionally Modulate Signatures
     of Internal and External Drive to CA1
@@ -302,6 +316,6 @@ repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000165/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000165/0.211118.1526
+version: 0.211118.1526
 wasGeneratedBy: []
