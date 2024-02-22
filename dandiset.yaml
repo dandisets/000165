@@ -6,7 +6,9 @@ about:
 - identifier: UBERON:0002421
   name: Hippocampus
   schemaKey: Anatomy
-access: []
+access:
+- schemaKey: AccessRequirements
+  status: dandi:OpenAccess
 acknowledgement: This work was supported by the National Science Foundation Graduate
   Research Fellowship No. 1144247, National Institute on Aging Predoctoral Fellowship
   No. F31AG057150, and Genentech Foundation Fellowship to E.A.A.J, funding from the
@@ -53,7 +55,7 @@ assetsSummary:
   - ElectrodeGroup
 citation: Aery Jones, Emily; Rao, Antara; Zilberter, Misha; Djukic, Biljana; Gillespie,
   Anna K.; Koutsodendris, Nicole; Nelson, Maxine; Yoon, Seo Yeon; Huang, Ky; Yuan,
-  Heidi; Gill, Theodore M.; Huang, Yadong; Frank, Loren M. (2022) Aery Jones et al
+  Heidi; Gill, Theodore M.; Huang, Yadong; Frank, Loren M. (2024) Aery Jones et al
   (2021) Dentate Gyrus and CA3 GABAergic Interneurons Bidirectionally Modulate Signatures
   of Internal and External Drive to CA1 (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000165/draft
@@ -298,7 +300,7 @@ relatedResource:
   repository: Github
   schemaKey: Resource
   url: https://github.com/emilyasterjones/interneurons_modulate_drive
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
